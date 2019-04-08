@@ -9,16 +9,7 @@ public class Leaf implements Component {
     }
 
     @Override
-    public void printPath(){
-        System.out.print( name + "\\" );
-    }
-
-    @Override
-    public Composite getParent() {
-        return parent;
-    }
-    @Override
-    public void setParent(Composite parent){
+    public void setParent(Composite parent) {
         this.parent = parent;
     }
 

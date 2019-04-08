@@ -7,6 +7,23 @@ public class Main {
     public static void main(String[] args) {
         //###Main catalog###
         Composite root = new Composite("~");
+        Composite f1 = new Composite("f1");
+        Composite f2 = new Composite("f2");
+        Composite f3 = new Composite("f3");
+        Composite f11 = new Composite("f11");
+        Composite f12 = new Composite("f12");
+        Composite f13 = new Composite("f13");
+        Composite f111 = new Composite("f111");
+        Composite f112 = new Composite("f112");
+
+        root.add(f1);
+        root.add(f2);
+        root.add(f3);
+        f1.add(f11);
+        f1.add(f12);
+        f1.add(f13);
+        f11.add(f111);
+        f11.add(f112);
 
         printWelcomeMsg();
         mainLoop(root);
@@ -35,16 +52,17 @@ public class Main {
                 }
             }
             // ### DIR ###
-            else if (command.toLowerCase().startsWith("dir")) {
+            else if (command.equalsIgnoreCase("dir")) {
                 main.printDir();
             }
+
             // ### MKDIR ###
             else if (command.toLowerCase().startsWith("mkdir ")) {
 
                 if (command.length() >= 7) {
                     nameOfCatalog = command.substring(6, command.length());
-                    if(checkIfEmptyName(nameOfCatalog))
-                    createNewCatalog(main, nameOfCatalog);
+                    if (checkIfEmptyName(nameOfCatalog))
+                        createNewCatalog(main, nameOfCatalog);
                     else System.out.println("Catalog name can not be empty");
                 }
             }
@@ -52,9 +70,9 @@ public class Main {
             else if (command.toLowerCase().startsWith("mktxt ")) {
                 if (command.length() >= 7) {
                     nameOfFile = command.substring(6, command.length());
-                    if(checkIfEmptyName(nameOfFile)) {
+                    if (checkIfEmptyName(nameOfFile)) {
                         createNewTextFile(main, nameOfFile);
-                    }else System.out.println("File name can not be empty");
+                    } else System.out.println("File name can not be empty");
                 }
             }
             // ### HELP ###
@@ -79,21 +97,21 @@ public class Main {
     }
 
     private static boolean checkIfEmptyName(String name) {
-        for(int i = 0 ; i < name.length()-1 ; i++){
-            if(name.charAt(i) != ' ') return true;
+        for (int i = 0; i < name.length() - 1; i++) {
+            if (name.charAt(i) != ' ') return true;
         }
         return false;
     }
 
     private static void printHelp() {
         System.out.println("available commands:\n" +
-            "cd <Catalog Name>     Changes the current directory.\n" +
-            "cd..                  Returns to the previous directory\n" +
-            "dir                   Displays a list of files and subdirectories in a directory.\n" +
-            "exit                  Quits the program\n" +
-            "help                  Provides Help information\n" +
-            "mkdir <Catalog Name>  Creates a directory.\n" +
-            "mktxt <File Name>     Creates a text file");
+                "cd <Catalog Name>     Changes the current directory.\n" +
+                "cd..                  Returns to the previous directory\n" +
+                "dir                   Displays a list of files and subdirectories in a directory.\n" +
+                "exit                  Quits the program\n" +
+                "help                  Provides Help information\n" +
+                "mkdir <Catalog Name>  Creates a directory.\n" +
+                "mktxt <File Name>     Creates a text file");
     }
 
     private static void createNewTextFile(Composite main, String nameOfFile) {
