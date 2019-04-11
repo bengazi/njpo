@@ -7,24 +7,8 @@ public class Main {
     public static void main(String[] args) {
         //###Main catalog###
         Composite root = new Composite("~");
-        Composite f1 = new Composite("f1");
-        Composite f2 = new Composite("f2");
-        Composite f3 = new Composite("f3");
-        Composite f11 = new Composite("f11");
-        Composite f12 = new Composite("f12");
-        Composite f13 = new Composite("f13");
-        Composite f111 = new Composite("f111");
-        Composite f112 = new Composite("f112");
 
-        root.add(f1);
-        root.add(f2);
-        root.add(f3);
-        f1.add(f11);
-        f1.add(f12);
-        f1.add(f13);
-        f11.add(f111);
-        f11.add(f112);
-
+        createSample(root);
         printWelcomeMsg();
         mainLoop(root);
     }
@@ -116,21 +100,21 @@ public class Main {
 
     private static void createNewTextFile(Composite main, String nameOfFile) {
         nameOfFile += ".txt";
-        if (!main.components.contains(findComponent(nameOfFile, main))) {
+        if (!main.getComponents().contains(findComponent(nameOfFile, main))) {
             Leaf leaf = new Leaf(nameOfFile);
-            main.components.add(leaf);
+            main.getComponents().add(leaf);
         }
     }
 
     private static void createNewCatalog(Composite main, String nameOfCatalog) {
-        if (!main.components.contains(findComponent(nameOfCatalog, main))) {
+        if (!main.getComponents().contains(findComponent(nameOfCatalog, main))) {
             Composite composite = new Composite(nameOfCatalog);
             main.add(composite);
         } else System.out.println("A subdirectory or file already exists.");
     }
 
     private static Component findComponent(String nameOfCatalog, Composite main) {
-        for (Component component : main.components) {
+        for (Component component : main.getComponents()) {
             if (component.getName().equalsIgnoreCase(nameOfCatalog))
                 return component;
         }
@@ -140,5 +124,24 @@ public class Main {
     private static void printWelcomeMsg() {
         System.out.print("Terminal simulator [Version 1.0]\n" +
                 "(c) 2019 Marek Hacieja. Wszelkie prawa zastrzeżone.\n");
+    }
+
+    private static void createSample(Composite root) {
+        Composite f1 = new Composite("f1");
+        Composite f2 = new Composite("f2");
+        Composite f3 = new Composite("f3");
+        Composite f11 = new Composite("f11");
+        Composite f12 = new Composite("f12");
+        Composite f13 = new Composite("f13");
+        Composite f111 = new Composite("f111");
+        Composite f112 = new Composite("f112");
+        root.add(f1);
+        root.add(f2);
+        root.add(f3);
+        f1.add(f11);
+        f1.add(f12);
+        f1.add(f13);
+        f11.add(f111);
+        f11.add(f112);
     }
 }

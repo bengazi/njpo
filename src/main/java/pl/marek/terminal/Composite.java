@@ -3,16 +3,15 @@ package pl.marek.terminal;
 import java.util.ArrayList;
 
 public class Composite implements Component {
-
-    private String name;
-    private Composite parent = null;
     protected static StringBuffer indent = new StringBuffer();
+    private String name;
+    private Composite parent;
 
     public Composite(String name) {
         this.name = name;
     }
 
-    public ArrayList<Component> components = new ArrayList<>();
+    private ArrayList<Component> components = new ArrayList<>();
 
     public void add(Component component) {
         component.setParent(this);
@@ -35,6 +34,10 @@ public class Composite implements Component {
 
     public Composite getParent() {
         return parent;
+    }
+
+    public ArrayList<Component> getComponents() {
+        return components;
     }
 
     @Override
