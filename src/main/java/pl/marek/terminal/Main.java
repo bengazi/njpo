@@ -81,7 +81,7 @@ public class Main {
     }
 
     private static boolean checkIfEmptyName(String name) {
-        for (int i = 0; i < name.length() - 1; i++) {
+        for (int i = 0; i < name.length(); i++) {
             if (name.charAt(i) != ' ') return true;
         }
         return false;
@@ -99,7 +99,6 @@ public class Main {
     }
 
     private static void createNewTextFile(Composite main, String nameOfFile) {
-        nameOfFile += ".txt";
         if (!main.getComponents().contains(findComponent(nameOfFile, main))) {
             Leaf leaf = new Leaf(nameOfFile);
             main.getComponents().add(leaf);

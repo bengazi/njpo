@@ -15,6 +15,8 @@ public class Leaf implements Component {
 
     @Override
     public String getName() {
-        return name;
+        return name + ".txt";
     }
+
+
 }
