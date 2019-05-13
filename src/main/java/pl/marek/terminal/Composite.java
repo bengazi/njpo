@@ -3,7 +3,7 @@ package pl.marek.terminal;
 import java.util.ArrayList;
 
 public class Composite implements Component {
-    protected static StringBuffer indent = new StringBuffer();
+    protected static StringBuilder  indent = new StringBuilder();
     private String name;
     private Composite parent;
 

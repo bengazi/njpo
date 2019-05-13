@@ -1,11 +1,21 @@
 package pl.marek.terminal;
 
 public class Leaf implements Component {
-    String name;
+    private String name;
+    private String content;
     private Composite parent;
 
     public Leaf(String name) {
         this.name = name;
+        this.content = "";
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void printContent(){
+        System.out.println(content);
     }
 
     @Override
