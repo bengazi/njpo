@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Main {
     static String text;
     static Scanner scanner = new Scanner(System.in);
-    static AbstractElement abstractElement = ()-> {
-        if(text!=null) System.out.print(text);
+    static AbstractElement abstractElement = () -> {
+        if (text != null) System.out.print(text);
         else System.out.println("THE TEXT IS EMPTY!!!");
     };
 
@@ -67,26 +67,35 @@ public class Main {
                 break;
             case CREATE_TEXT:
                 System.out.println(">Entry text:");
-                abstractElement = ()->System.out.print(text);
+                abstractElement = () -> System.out.print(text);
                 text = scanner.nextLine();
                 break;
             case ADD_PARAGRAPH:
                 abstractElement = new DecoratorParagraph(abstractElement);
+                addTagMsg();
                 break;
             case ADD_EM:
                 abstractElement = new DecoratorEm(abstractElement);
+                addTagMsg();
                 break;
             case ADD_MARK:
                 abstractElement = new DecoratorMark(abstractElement);
+                addTagMsg();
                 break;
             case ADD_STRONG:
                 abstractElement = new DecoratorStrong(abstractElement);
+                addTagMsg();
                 break;
             case DISPLAY_TEXT:
                 abstractElement.write();
                 scanner.nextLine();
                 break;
         }
+    }
+
+    private static void addTagMsg() {
+        System.out.print("Tag added!");
+        scanner.nextLine();
     }
 
     static private void closeApp() {
