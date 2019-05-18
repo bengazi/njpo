@@ -6,19 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5d535d-1051-45e8-982c-3bd35097470a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/InvalidOptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/Options.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/AbstractTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/ConfigTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/TagFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/tags/TagEm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/tags/TagMark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/tags/TagParagraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/tags/TagStrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/CurrencyTableSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/JavaLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/SelectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marek/html/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marek/html/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marek/html/decorator/PlainText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marek/html/decorator/PlainText.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,12 +33,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/html/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="357">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/CurrencyTableSize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/JavaLib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +120,7 @@
       <find>Sys</find>
       <find>e.</find>
       <find>file</find>
+      <find>guav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,18 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/njpoI.iml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/terminal/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/terminal/Composite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/terminal/Leaf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/terminal/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/decorators/InvalidOptionException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/decorators/Options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/App/Options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/AbstractElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/PlainTextDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/PlainText.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/decorators/DecoratorEm.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/decorators/DecoratorMark.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/decorators/DecoratorParagraph.java" />
@@ -132,6 +168,18 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/tags/TagParagraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/factory/tags/TagEm.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/marek/html/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/GuavaSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/JavaLib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/CurrencyTableSize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/marek/sorting/Main.java" />
       </list>
     </option>
   </component>
@@ -147,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,7 +235,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marek" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njop2" type="b2602c69:ProjectViewProjectNode" />
@@ -197,14 +244,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marek" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,6 +300,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.marek.sorting.Main" />
+      <module name="njpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.marek.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -260,6 +321,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.marek.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.marek.sorting.Main" />
+      <module name="njpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.marek.sorting.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,8 +370,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -320,16 +394,16 @@
       <workItem from="1555160936280" duration="297000" />
       <workItem from="1555162297513" duration="326000" />
       <workItem from="1557761206615" duration="4595000" />
-      <workItem from="1558011815721" duration="16873000" />
+      <workItem from="1558011815721" duration="17653000" />
+      <workItem from="1558090784657" duration="6154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28501000" />
+    <option name="totallyTimeSpent" value="35435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48907104" visible="true" weight="0.2796486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -338,7 +412,7 @@
       <window_info id="Favorites" order="4" sideWeight="0.510929" side_tool="true" weight="0.27086383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31104198" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31104198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,55 +515,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorEm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorMark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorParagraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorStrong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/PlaintTextDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/AbstractElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/PlainText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorEm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorMark.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorParagraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/DecoratorStrong.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/PlaintTextDecorator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/AbstractElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/PlainText.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/html/decorator/PlainTextDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -514,67 +546,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorEm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorMark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorParagraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorStrong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/AbstractElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/PlainText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/PlainTextDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorEm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorMark.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorParagraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/decorators/DecoratorStrong.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/AbstractElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/PlainText.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/factoryhtml/decorator/PlainTextDecorator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/html/decorator/decorators/DecoratorMark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -705,10 +683,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/html/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="561">
+          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/JavaLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/CurrencyTableSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/algorithms/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/marek/sorting/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
