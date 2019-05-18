@@ -7,7 +7,7 @@ import pl.marek.sorting.algorithms.SelectSort;
 
 public class Main {
     public static void main(String[] args) {
-        CurrencyTableSize table = new CurrencyTableSize(5);
+        CurrencyTableSize table = new CurrencyTableSize(0);
         BubbleSort bubbleSort = new BubbleSort(table);
         QuickSort quickSort = new QuickSort(table);
         SelectSort selectSort = new SelectSort(table);
